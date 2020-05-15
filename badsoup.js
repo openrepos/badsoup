@@ -1,10 +1,1 @@
-  var xhr = new XMLHttpRequest();
-  xhr.open('get', 'https://soup.con.sh/api.php');
-  xhr.onreadystatechange = function () {
-    if (xhr.readyState === 4) {
-      var data = JSON.parse(xhr.responseText);
-      var badsoup = document.getElementById('badsoup');
-      badsoup.innerText = data.badsoup;
-    }
-  }
-  xhr.send();
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('1 0=e h();0.l(\'3\',\'5://6.7/2/9.c\');0.d=p(){f(0.g===4){1 a=i.j(0.k);1 b=m.n(\'2\');b.o=a.2}}0.8();',26,26,'xhr|var|badsoup|get||https|staticdn|net|send|api|||php|onreadystatechange|new|if|readyState|XMLHttpRequest|JSON|parse|responseText|open|document|getElementById|innerText|function'.split('|'),0,{}))
